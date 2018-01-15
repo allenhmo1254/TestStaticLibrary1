@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/allenhmo1254/TestStaticLibrary1.git", :tag => "0.0.1" }
 
-  s.source_files  = "TestStaticLibrary1", "TestStaticLibrary1/**/*.{h,m}"
+  s.source_files  = "TestStaticLibrary1", "TestStaticLibrary1/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
